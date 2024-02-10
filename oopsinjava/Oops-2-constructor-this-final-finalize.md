@@ -31,8 +31,14 @@ To add a finalizer to a class, you simply define the finalize( ) method. The Jav
 it is about to recycle an object of that class. Right before an asset is freed, the Java run time calls the finalize( )
 method on the object.
 ```
+@override
 protected void finalize( ) {
     // finalization code here
+     sysout("Action done before object destroyed");
+}
+Student s = new Student();
+for(int i=0;i<1000000;i++){
+     s = new Student(); // 1000000 time the object is created
 }
 ```
 ## Constructors:
