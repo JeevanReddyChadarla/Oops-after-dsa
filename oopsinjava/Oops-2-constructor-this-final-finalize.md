@@ -15,12 +15,13 @@ If an instance variable of a reference type has the final modifier, the value of
 to an object) will never change—it will always refer to the same object—but the value of the object itself can change.
 
 ### final in non-primitive datatype (Objects) - 
+```
 final Student s1=new Student(); - declared final
 Student s2=new Student();
 s1.name="Jeevan";
 s1.name="chadarla"; - the reference variable can be modified, but 
 s1=s2; is not possible 
-
+```
 
 ## The finalize( ) Method:
 Sometimes an object will need to perform some action when it is destroyed.
@@ -29,11 +30,11 @@ you can define specific actions that will occur when an object is just about to 
 To add a finalizer to a class, you simply define the finalize( ) method. The Java run time calls that method whenever
 it is about to recycle an object of that class. Right before an asset is freed, the Java run time calls the finalize( )
 method on the object.
-
+```
 protected void finalize( ) {
     // finalization code here
 }
-
+```
 ## Constructors:
 
 Once defined, the constructor is automatically called when the object is created, before the new operator completes.
@@ -49,7 +50,7 @@ new Box( ) is calling the Box( ) constructor.
 
 In Java, constructor of base class with no argument gets automatically called in derived class constructor.
 For example, output of following program given below is:
-
+```
 Base Class Constructor Called
 Derived Class Constructor Called
 
@@ -71,7 +72,7 @@ public class Main {
     Derived d = new Derived();
   }
 }
-
+```
 Any class will have a default constructor, does not matter if we declare it in the class or not. If we inherit a class,
 then the derived class must call its super class constructor. It is done by default in derived class.
 If it does not have a default constructor in the derived class, the JVM will invoke its default constructor and call
