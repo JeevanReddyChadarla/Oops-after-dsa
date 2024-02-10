@@ -14,6 +14,14 @@ Unfortunately, final guarantees immutability only when instance variables are pr
 If an instance variable of a reference type has the final modifier, the value of that instance variable (the reference
 to an object) will never change—it will always refer to the same object—but the value of the object itself can change.
 
+### final in non-primitive datatype (Objects) - 
+final Student s1=new Student(); - declared final
+Student s2=new Student();
+s1.name="Jeevan";
+s1.name="chadarla"; - the reference variable can be modified, but 
+s1=s2; is not possible 
+
+
 ## The finalize( ) Method:
 Sometimes an object will need to perform some action when it is destroyed.
 To handle such situations, Java provides a mechanism called finalization. By using finalization,
