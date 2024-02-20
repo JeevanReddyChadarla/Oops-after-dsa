@@ -2,7 +2,13 @@ package carshowroom;
 
 import java.util.Scanner;
 
+interface details{
+	public void getDetails();
+	public void setDetails();
+}
+
 public class Welcome {
+	
 	Scanner sc = new Scanner(System.in);
 	public int choise;
 	public void WelcomeNote() {
