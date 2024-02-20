@@ -8,7 +8,7 @@ iii.	java 8 to java11  new features
 	
 	1. oops
 	2. garbage collection and meemory management
-	3. design patterns 
+	3. SOLID principles, design patterns 
 
 	4. oAuth - https://www.youtube.com/watch?v=65-6asTjuB8&pp=ygUOZ2F1cmF2IHNlbiBhcGk%3D	
 	5. Understand how capman words, publisher and subscriber
