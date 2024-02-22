@@ -2,13 +2,13 @@
 Oops in java
 
 i. comprator and comparible
-ii.	streams api - https://www.youtube.com/watch?v=ORprbzJUmVI&list=PLTyWtrsGknYdqY_7lwcbJ1z4bvc5yEEZl&index=7
+ii.	streams api - https://www.youtube.com/watch?v=ORprbzJUmVI&list=PLTyWtrsGknYdqY_7lwcbJ1z4bvc5yEEZl&index=7  
 iii.	java 8 to java11  new features
 	
 	
 	1. oops - https://www.youtube.com/playlist?list=PL9q3G4cgja6eDC31oj_qf5gm6laN7KYsM
 	2. garbage collection and meemory management
-	3. SOLID principles - https://medium.com/@javatechie/solid-design-principle-java-ae96a48db97, 
+	3. SOLID principles - https://medium.com/@javatechie/solid-design-principle-java-ae96a48db97,     https://github.com/Java-Techie-jt/solid-principles-example/tree/main    
  	4. design patterns -  
 
 	4. oAuth - https://www.youtube.com/watch?v=65-6asTjuB8&pp=ygUOZ2F1cmF2IHNlbiBhcGk%3D	
