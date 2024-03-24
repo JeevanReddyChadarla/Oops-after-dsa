@@ -10,7 +10,7 @@ public class File_5_CopyOrMoveAFile {
 	public static void main(String[] args) {
 		try {
 			System.out.println("Started at : "+new Date());
-			Path source = Paths.get("restAPI");
+			Path source = Paths.get("restAPI.zip");
 			Path destination  = Paths.get("DataSet/copied1.zip");
 //			Files.copy(source, destination);
 			Files.move(source, destination); //-- this is to move the file
