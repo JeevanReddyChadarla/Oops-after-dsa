@@ -48,13 +48,13 @@ in java.io package we can -
 File myObj = new File("filename.txt");
 myObj.createNewFile() - return true or false
 ```
-#### write to a file
+#### 2. write to a file
 ```
 FileWriter myContent = new FileWriter("filename.txt");
 myContent.write("Hello this my content");
 myContent.close();
 ```
-#### read from a file
+#### 3. read from a file
 ```
 File myObj = new File("filename.txt");
 	Scanner myReader = new Scanner(myObj);
@@ -64,7 +64,18 @@ File myObj = new File("filename.txt");
 	}
 	myReader.close();
 ```
-#### delete a file
+#### 4. delete a file
 ```
 f.delete();
 ```
+
+###
+There are two types of file readers in java - <br>
+1. byte stream  2. character stream <br>
+Byte stream is divided into - data as bytes, it can be text/images/audio
+	1. inputstream - reading data from source files 
+ 	2. outputstream - writing data to destination files
+Character stream is divided into - data as characters only
+	1. reader - read text data from source files
+ 	2. writer - write text data to various files
+
