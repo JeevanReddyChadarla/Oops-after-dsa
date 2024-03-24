@@ -1,11 +1,11 @@
 Files are handled in java using - java.nio pacakge
 we can perform - 
-## create a folder
-## create a file
-## read from a file
-## write to a file
-## append the content to an existing file
-## copy or move a file from one location to other
+### create a folder
+### create a file
+### read from a file
+### write to a file
+### append the content to an existing file
+### copy or move a file from one location to other
 
 #### 1. Create a folder
 Path p = Paths.get("DataSet");
