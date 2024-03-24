@@ -72,10 +72,10 @@ f.delete();
 ###
 There are two types of file readers in java - <br>
 1. byte stream  2. character stream <br>
-Byte stream is divided into - data as bytes, it can be text/images/audio
-	1. inputstream - reading data from source files 
- 	2. outputstream - writing data to destination files
-Character stream is divided into - data as characters only
-	1. reader - read text data from source files
- 	2. writer - write text data to various files
+Byte stream is divided into - data as bytes, it can be text/images/audio <br>
+	1. inputstream - reading data from source files <br>
+ 	2. outputstream - writing data to destination files <br>
+Character stream is divided into - data as characters only <br>
+	1. reader - read text data from source files <br>
+ 	2. writer - write text data to various files <br>
 
