@@ -1,4 +1,4 @@
-package streamslearning;
+package _6_streamslearning;
 
 public class Course {
 		

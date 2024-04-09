@@ -1,4 +1,4 @@
-package multithreading;
+package _7_multithreading;
 
 import java.util.Arrays;
 
