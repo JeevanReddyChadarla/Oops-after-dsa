@@ -1,0 +1,10 @@
+Hirarchey of exceptions
+
+					 issues
+				_______|______
+			   | 			  |
+			Errors			Exceptions
+(which cannot be handled)	(can be handled)
+							_____|______
+							
+					  
