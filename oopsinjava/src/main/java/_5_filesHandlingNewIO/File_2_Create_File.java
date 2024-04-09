@@ -1,4 +1,4 @@
-package _5_filesHandling;
+package _5_filesHandlingNewIO;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
